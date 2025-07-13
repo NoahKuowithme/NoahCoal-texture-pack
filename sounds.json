@@ -5490,7 +5490,11 @@
          "conduit.deactivate" : {
             "pitch" : 1.0,
             "sound" : "conduit.deactivate",
+<<<<<<< HEAD
             "volume" : 15.0
+=======
+            "volume" : 25.0
+>>>>>>> bdf80dee083c957d54f4db5f8de9269ec76cdff7
          },
          "conduit.short" : {
             "pitch" : 1.0,
