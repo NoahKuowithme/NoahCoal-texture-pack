@@ -1022,7 +1022,7 @@
       "textures" : "coral"
    },
    "coral_block" : {
-      "sound" : "stone",
+      "sounds" : "stone",
       "textures" : "coral_block"
    },
    "coral_fan" : {
