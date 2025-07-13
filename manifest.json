@@ -1,22 +1,35 @@
 {
-  "format_version": 2,
-  "header": {
-    "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
-    "name": "§aNoahCoal's §dtexture V9",
-    "uuid": "ee1d086d-a97e-4d3a-a37b-e7477ed66bde",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 16, 0],
-    "author": "NoahCoal",
-    "license": "All Rights Reserved",
-    "in_game_author": "NoahCoal"
-  },
-  "modules": [
-    {
-      "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
-      "type": "resources",
-      "uuid": "c7652897-5448-4c00-9446-64026fb57299",
-      "version": [1, 0, 0]
-    }],
+	"format_version": 2,
+	"header": {
+		"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
+		"name": "§aNoahCoal's §dtexture V9",
+		"uuid": "ee1d086d-a97e-4d3a-a37b-e7477ed66bde",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		],
+		"author": "NoahCoal",
+		"license": "All Rights Reserved",
+		"in_game_author": "NoahCoal"
+	},
+	"modules": [
+		{
+			"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
+			"type": "resources",
+			"uuid": "c7652897-5448-4c00-9446-64026fb57299",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
 	"subpacks": [
 		{
 			"folder_name": "Chomsky",
@@ -44,4 +57,4 @@
 			"memory_tier": 1
 		}
 	]
-  }
+}
