@@ -1,0 +1,15 @@
+{
+  "ui_defs": [
+    "new_ui/start.json",
+    "new_ui/animations.json",
+//chat UI
+    "new_ui/common_sections/ui_common.json",
+    "new_ui/common_sections/ui_template_menus.json",
+    "new_ui/common_sections/ui_template_scroll.json",
+    "new_ui/common_sections/ui_template_toggles.json",
+    "new_ui/java_gui_sections/java_gui_common.json",
+    "new_ui/main_screens/chat_screen.json",
+    "new_ui/main_screens/host_options_screen.json",
+    "new_ui/main_screens/hud_sections/chat_panel.json"
+  ]
+}

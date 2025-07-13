@@ -1,0 +1,37 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "waxed_copper_door": {
+      "textures": "textures/items/waxed/waxed_copper_door"
+    },
+    "waxed_exposed_copper_door": {
+      "textures": "textures/items/waxed/waxed_exposed_copper_door"
+    },
+    "waxed_weathered_copper_door": {
+      "textures": "textures/items/waxed/waxed_weathered_copper_door"
+    },
+    "waxed_oxidized_copper_door": {
+      "textures": "textures/items/waxed/waxed_oxidized_copper_door"
+    },
+    "map_filled": {
+      "textures": [
+        "textures/items/map/map_filled",
+        "textures/items/map/map_filled",
+        "textures/items/map/map_filled",
+        "textures/items/map/map_monument",
+        "textures/items/map/map_mansion",
+        "textures/items/map/map_nautilus",
+        "textures/items/map/map_locked",
+        "textures/items/map/map_snow",
+        "textures/items/map/map_taiga",
+        "textures/items/map/map_plains",
+        "textures/items/map/map_savanna",
+        "textures/items/map/map_dessert",
+        "textures/items/map/map_jungle",
+        "textures/items/map/map_swamp",
+        "textures/items/map/map_trial_chambers"
+      ]
+    }
+  }
+}
