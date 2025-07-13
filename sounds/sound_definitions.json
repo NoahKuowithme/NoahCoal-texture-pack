@@ -81,9 +81,9 @@
       "category": "player",
       "min_distance": 1.0,
       "sounds": [
-        "sounds/Critical_attack1",
-        "sounds/Critical_attack2",
-        "sounds/Critical_attack3"
+        "sounds/entity/player/attack/crit1",
+        "sounds/entity/player/attack/crit2",
+        "sounds/entity/player/attack/crit3"
       ]
     }
   }
