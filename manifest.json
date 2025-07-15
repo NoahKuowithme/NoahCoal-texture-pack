@@ -55,6 +55,16 @@
 			"folder_name": "Smooth",
 			"name": "Smooth",
 			"memory_tier": 1
+		},
+		{
+			"folder_name": "font_smooth1",
+			"name": "font_smooth1",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Font_Modern",
+			"name": "Font_Modern",
+			"memory_tier": 1
 		}
 	]
 }
