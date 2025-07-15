@@ -13,6 +13,8 @@ for /f "delims=" %%f in ('dir /b /a-d /o-d *.mcpack') do (
 
 REM 用預設程式開啟最新的 mcpack
 start "" "%latest_mcpack%"
+timeout /t 15
 
 REM 刪除所有 .mcpack 檔案
 del /q *.mcpack
+pause 

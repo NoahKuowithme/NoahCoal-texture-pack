@@ -43,7 +43,7 @@
         "text_qs": {
           "type": "label",
           "text": "QUICK SETTINGS",
-          "font_type": "MinecraftTen"
+          "font_type": "Smooth"
         }
       },
       {
