@@ -1,5 +1,7 @@
 import os
 import zipfile
+import json
+import uuid
 
 def get_non_conflicting_filename(base_path):
     if not os.path.exists(base_path):
@@ -12,6 +14,16 @@ def get_non_conflicting_filename(base_path):
         i += 1
         new_path = f"{base} ({i}){ext}"
     return new_path
+
+def update_manifest_uuid(manifest_path):
+    with open(manifest_path, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+    # 隨機產生新的 uuid
+    manifest["header"]["uuid"] = str(uuid.uuid4())
+    if "modules" in manifest and len(manifest["modules"]) > 0:
+        manifest["modules"][0]["uuid"] = str(uuid.uuid4())
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=4)
 
 def zip_folder_to_mcpack(folder_path, output_path):
     output_path = get_non_conflicting_filename(output_path)
@@ -26,4 +38,7 @@ def zip_folder_to_mcpack(folder_path, output_path):
 if __name__ == "__main__":
     folder = "src"
     output_file = "NoahPack.mcpack"
+    # 先更新 manifest.json 的 uuid
+    manifest_path = os.path.join(folder, "manifest.json")
+    update_manifest_uuid(manifest_path)
     zip_folder_to_mcpack(folder, output_file)

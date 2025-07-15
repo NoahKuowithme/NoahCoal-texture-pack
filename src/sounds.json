@@ -4124,7 +4124,7 @@
                "ambient.in.raid" : {
                   "pitch" : [ 0.80, 1.20 ],
                   "sound" : "mob.pillager.idle",
-                  "volume" : 3.0
+                  "volume" : 1.5
                },
                "celebrate" : "mob.pillager.celebrate",
                "death" : "mob.pillager.death",
