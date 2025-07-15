@@ -1,4 +1,5 @@
 @echo off
+echo "正在打包最新的 Minecraft 資源包..."
 REM 執行 Python 打包腳本
 python main.py
 
@@ -13,6 +14,7 @@ for /f "delims=" %%f in ('dir /b /a-d /o-d *.mcpack') do (
 
 REM 用預設程式開啟最新的 mcpack
 start "" "%latest_mcpack%"
+echo "正在匯入最新的資源包... 15 秒後自動刪除"
 
 timeout /t 15
 
