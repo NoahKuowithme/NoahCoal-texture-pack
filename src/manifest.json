@@ -3,7 +3,7 @@
 	"header": {
 		"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
 		"name": "§aNoahCoal's §dtexture V9",
-		"uuid": "ee1d086d-a97e-4d3a-a37b-e7477ed66bde",
+		"uuid": "ec664b16-ec68-4fec-ac77-fc2354becf47",
 		"version": [
 			1,
 			0,
@@ -22,7 +22,7 @@
 		{
 			"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
 			"type": "resources",
-			"uuid": "c7652897-5448-4c00-9446-64026fb57299",
+			"uuid": "c08cce7a-e646-45ee-beb3-bf425a20b355",
 			"version": [
 				1,
 				0,
@@ -64,6 +64,11 @@
 		{
 			"folder_name": "Font_Modern",
 			"name": "Font_Modern",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "GTA V",
+			"name": "GTA V",
 			"memory_tier": 1
 		}
 	]
