@@ -1,0 +1,17 @@
+# 對於所有文字檔案使用 LF 換行
+* text=auto eol=lf
+
+# Python 檔案統一換行與語言辨識
+*.py text eol=lf linguist-language=Python
+
+# BAT 檔案用 Windows 的 CRLF（避免失效）
+*.bat text eol=crlf
+
+# JSON 檔案語言標記為 JSON
+*.json linguist-language=JSON
+
+# 壓縮包、圖片、音效等設為 binary，避免 Git 嘗試 diff
+*.zip binary
+*.mcpack binary
+*.png binary
+*.ogg binary
