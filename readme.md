@@ -18,9 +18,9 @@ NoahCoal-texture-pack/
 ├── src/                      ← 資源包主體（textures、sounds、manifest.json 等）
 ├── builds/                   ← 自動儲存的歷史 .mcpack 檔案
 └── functions/
-├── main.py               ← 負責更新 UUID 並打包 src 為 .mcpack
-├── get\_version.py        ← 顯示目前版本
-└── bump\_version.py       ← 升級版本（正式 / hotfix）
+   ├── main.py               ← 負責更新 UUID 並打包 src 為 .mcpack
+   ├── get\_version.py        ← 顯示目前版本
+   └── bump\_version.py       ← 升級版本（正式 / hotfix）
 
 ```
 
