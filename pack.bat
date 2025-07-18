@@ -79,5 +79,5 @@ if /i "!keepfile!"=="y" (
         echo !msg_keepbuilds!
     )
 )
-pause
+@REM pause
 endlocal

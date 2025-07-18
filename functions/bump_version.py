@@ -13,13 +13,19 @@ if len(sys.argv) > 2 and sys.argv[2] == "zh":
     lang = "zh"
 
 if len(sys.argv) > 1 and sys.argv[1] == "hotfix":
-    # hotfix: increment last digit
+    # 移除舊的 hotfix 標記（避免重複）
+    old_tag = f"§n (hotfix v{version[2]})"
+    manifest["header"]["name"] = manifest["header"]["name"].replace(old_tag, "")
+
+    # hotfix: increment最後一位
     version[-1] += 1
     hotfix = True
-    # 在 name 後面加上 hotfix 標記
-    manifest["header"]["name"] += f"§n (hotfix v{version[2]})"
+
+    # 加上新的 hotfix 標記
+    new_tag = f"§n (hotfix v{version[2]})"
+    manifest["header"]["name"] += new_tag
 else:
-    # release: increment second digit, reset last digit
+    # release: 增加第二位，重置最後一位
     version[1] += 1
     version[2] = 0
 
