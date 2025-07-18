@@ -1,75 +1,75 @@
 {
-	"format_version": 2,
-	"header": {
-		"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
-		"name": "§aNoahCoal's §dtexture V9",
-		"uuid": "ec664b16-ec68-4fec-ac77-fc2354becf47",
-		"version": [
-			1,
-			0,
-			0
-		],
-		"min_engine_version": [
-			1,
-			16,
-			0
-		],
-		"author": "NoahCoal",
-		"license": "All Rights Reserved",
-		"in_game_author": "NoahCoal"
-	},
-	"modules": [
-		{
-			"description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
-			"type": "resources",
-			"uuid": "c08cce7a-e646-45ee-beb3-bf425a20b355",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "Chomsky",
-			"name": "Chomsky",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "Neothic",
-			"name": "Neothic",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "Russo One",
-			"name": "Russo One",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "Souls",
-			"name": "Souls",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "Smooth",
-			"name": "Smooth",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "font_smooth1",
-			"name": "font_smooth1",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "Font_Modern",
-			"name": "Font_Modern",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "GTA V",
-			"name": "GTA V",
-			"memory_tier": 1
-		}
-	]
+    "format_version": 2,
+    "header": {
+        "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
+        "name": "§aNoahCoal's §dtexture §c§o§lv9§r§n (hotfix v1)",
+        "uuid": "bf1376d0-c407-45c8-95b3-109826e62b1f",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ],
+        "author": "NoahCoal",
+        "license": "All Rights Reserved",
+        "in_game_author": "NoahCoal"
+    },
+    "modules": [
+        {
+            "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
+            "type": "resources",
+            "uuid": "61873236-339e-4cc5-974f-9bff45b7b76f",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "Chomsky",
+            "name": "Chomsky",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "Neothic",
+            "name": "Neothic",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "Russo One",
+            "name": "Russo One",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "Souls",
+            "name": "Souls",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "Smooth",
+            "name": "Smooth",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "font_smooth1",
+            "name": "font_smooth1",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "Font_Modern",
+            "name": "Font_Modern",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "GTA V",
+            "name": "GTA V",
+            "memory_tier": 1
+        }
+    ]
 }
