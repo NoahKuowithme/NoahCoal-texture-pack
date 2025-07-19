@@ -6008,7 +6008,7 @@
          "raid.horn" : {
             "pitch" : 1.0,
             "sound" : "raid.horn",
-            "volume" : 12.0
+            "volume" : 8.0
          },
          "ram_impact" : {
             "pitch" : 1.0,
