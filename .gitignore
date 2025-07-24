@@ -1,1 +1,5 @@
+# 忽略打包產物與暫存檔
 *.mcpack
+builds/
+__pycache__/
+*.pyc

@@ -2,12 +2,12 @@
     "format_version": 2,
     "header": {
         "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
-        "name": "§aNoahCoal's §dtexture V9",
-        "uuid": "44ffadbf-1681-4318-a7dd-097412b4c72e",
+        "name": "§aNoahCoal's §dtexture §c§o§lv9§r§n (hotfix v4)",
+        "uuid": "dcec104a-902c-471c-8dae-a9f6f39728c3",
         "version": [
             1,
             0,
-            0
+            4
         ],
         "min_engine_version": [
             1,
@@ -22,11 +22,11 @@
         {
             "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
             "type": "resources",
-            "uuid": "15109690-a2f0-42fd-93a3-a9b12eb35bf7",
+            "uuid": "19f6d888-3bf1-4207-b3be-40e863ec513f",
             "version": [
                 1,
                 0,
-                0
+                4
             ]
         }
     ],
@@ -69,11 +69,6 @@
         {
             "folder_name": "GTA V",
             "name": "GTA V",
-            "memory_tier": 1
-        },
-        {
-            "folder_name": "32x_Cotton",
-            "name": "32x_Cotton",
             "memory_tier": 1
         }
     ]

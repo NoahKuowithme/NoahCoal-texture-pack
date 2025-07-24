@@ -2,6 +2,7 @@ import os
 import zipfile
 import json
 import uuid
+import sys
 
 def get_non_conflicting_filename(base_path):
     if not os.path.exists(base_path):
@@ -25,7 +26,7 @@ def update_manifest_uuid(manifest_path):
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=4)
 
-def zip_folder_to_mcpack(folder_path, output_path):
+def zip_folder_to_mcpack(folder_path, output_path, lang="en"):
     output_path = get_non_conflicting_filename(output_path)
     with zipfile.ZipFile(output_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         len_dir_path = len(folder_path)
@@ -33,7 +34,10 @@ def zip_folder_to_mcpack(folder_path, output_path):
             for file in files:
                 file_path = os.path.join(root, file)
                 zipf.write(file_path, file_path[len_dir_path+1:])
-    print(f"已生成 {output_path}")
+    if lang == "zh":
+        print(f"已生成 {output_path}")
+    else:
+        print(f"Generated {output_path}")
 
 if __name__ == "__main__":
     folder = "src"
@@ -41,4 +45,7 @@ if __name__ == "__main__":
     # 先更新 manifest.json 的 uuid
     manifest_path = os.path.join(folder, "manifest.json")
     update_manifest_uuid(manifest_path)
-    zip_folder_to_mcpack(folder, output_file)
+    lang = "en"
+    if len(sys.argv) > 1 and sys.argv[1] == "zh":
+        lang = "zh"
+    zip_folder_to_mcpack(folder, output_file, lang)
