@@ -8,13 +8,7 @@
         "texture": "textures/particle/particles"
       }
     },
-    "events": {
-      "critical_sound": {"sound_effect": {"event_name": "deny"}}
-    },
-    
     "components": {
-      "minecraft:emitter_lifetime_events": {"creation_event": ["critical_sound"]},
-      
       "minecraft:emitter_rate_steady": {
         "spawn_rate": 520,
         "max_particles": 48
