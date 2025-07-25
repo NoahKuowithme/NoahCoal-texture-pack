@@ -3,10 +3,10 @@
     "header": {
         "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
         "name": "§aNoahCoal's §dtexture §c§o§lV10§r§n",
-        "uuid": "cf8974ee-31fb-416d-955a-8b06d2d564ec",
+        "uuid": "2be190bc-3761-40a0-88e8-1b974a51a697",
         "version": [
             1,
-            4,
+            5,
             0
         ],
         "min_engine_version": [
@@ -22,10 +22,10 @@
         {
             "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
             "type": "resources",
-            "uuid": "37c4865b-015f-4f70-b816-784813d341e8",
+            "uuid": "7d434e6f-9c34-4ff7-9107-dad53e0a1985",
             "version": [
                 1,
-                4,
+                5,
                 0
             ]
         }
@@ -74,6 +74,16 @@
         {
             "folder_name": "32x_Cotton",
             "name": "32x_Cotton",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "bg",
+            "name": "bg",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "bg_1",
+            "name": "bg_1",
             "memory_tier": 1
         }
     ]
