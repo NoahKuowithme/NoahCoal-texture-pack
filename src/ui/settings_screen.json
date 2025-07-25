@@ -1,10 +1,9 @@
-/********************************************************
-+*   (c) Mojang. All rights reserved                       *
-+*   (c) Microsoft. All rights reserved.                   *
-+*********************************************************/
-
 {
   "namespace": "settings",
+  "settings_screen_base@settings_common.screen_base": {
+    "$screen_bg_content": "common.setwarp_screen"
+  },
+
 
   "divider": {
     "type": "panel",
@@ -131,7 +130,7 @@
         }
       },
 
-      // the list of selection toggle buttons, add yours here...
+    
       {
         "world_selector_pane@world_section.selector_pane_content": {
           "ignored": "(not $include_world_section)"
@@ -157,7 +156,7 @@
           "$debug_section_header": "options.debug",
           "controls": [
 
-            // Controls Section //
+
             {
               "spacer_1": {
                 "type": "panel",
@@ -200,7 +199,7 @@
               }
             },
 
-            // General Section //
+      
             {
               "spacer_2": {
                 "type": "panel",
@@ -292,7 +291,7 @@
               }
             },
 
-            // Debug Section //
+
             {
               "spacer_3": {
                 "type": "panel",
