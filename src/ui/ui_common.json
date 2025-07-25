@@ -1,67 +1,49 @@
 {
   "namespace": "common",
-
-  "start_screen": {
+  
+    "start_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/start"
-  },
+	},
 
-  "play_screen": {
+    "play_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/play"
-  },
-  
-  "credit_screen": {
+	},
+	
+    "credit_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/credit"
-  },
+	},
 
-  "end_screen": {
+    "end_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/end"
-  },
+	},
 
-  "nether_screen": {
+    "nether_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/nether"
-  },
-  
-  "world_screen": {
+	},
+	
+    "world_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/world"
-  },
-  
-  "setwarp_screen": {
+	},
+	
+    "setwarp_screen": {
     "type": "image",
     "fill": true,
     "texture": "textures/minecraft_bg/lod"
-  },
-
-  "base_screen": {
-    "type": "panel",
-    "size": [ "100%", "100%" ],
-    "controls": [
-      {
-        "background_layer": {
-          "type": "panel",
-          "size": [ "100%", "100%" ],
-          "controls": [
-            {
-              "background_image": "$screen_bg_content"
-            }
-          ]
-        }
-      }
-    ]
-  },
-
-  "screen_exit_animation_push_alpha": {
+	},
+	
+	"screen_exit_animation_push_alpha": {
     "anim_type": "alpha",
     "scale_from_starting_alpha": true,
     "easing": "linear",
