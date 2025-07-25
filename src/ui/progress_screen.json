@@ -184,15 +184,15 @@
     ]
   },
   "overworld_loading_progress_screen":{
-    "$dimension_screen_text":"dimension.overworld",
+    "$dimension_screen_text":"主世界 / Overworld",
     "$screen_content":"progress.dimension_loading_screen_base"
   },
   "nether_loading_progress_screen":{
-    "$dimension_screen_text":"dimension.nether",
+    "$dimension_screen_text":"下界 / Nether",
     "$screen_content":"progress.dimension_loading_screen_base"
   },
   "theend_loading_progress_screen":{
-    "$dimension_screen_text":"dimension.theend",
+    "$dimension_screen_text":"終界 / The End",
     "$screen_content":"progress.dimension_loading_screen_base"
   },
   "loading_exp_bar_percentage":{
