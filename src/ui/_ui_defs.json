@@ -11,16 +11,8 @@
     "new_ui/main_screens/chat_screen.json",
     "new_ui/main_screens/host_options_screen.json",
     "new_ui/main_screens/hud_sections/chat_panel.json",
-
-
 //fix
-
-
-
- "ui/play_screen.json",
- "ui/fix_playscreen_BG.json",
-
-
+    "ui/play_screen.json",
 //other UI
 
     "ui/account_banned_screen.json",

@@ -1,9 +1,0 @@
-{
-  "namespace": "play",
-
-  "Noah_playscreen_BG": {
-    "type": "image",
-    "texture": "textures/ui/Fix_playscreen_BG",
-    "fill": true
-  }
-}

@@ -3,10 +3,10 @@
     "header": {
         "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
         "name": "§aNoahCoal's §dtexture §c§o§lV10§r§n",
-        "uuid": "4a29b8e6-9d1a-433e-8721-9f07ac6483f7",
+        "uuid": "b1e16f28-5dea-4897-b433-6537df3ba140",
         "version": [
             1,
-            10,
+            11,
             0
         ],
         "min_engine_version": [
@@ -22,10 +22,10 @@
         {
             "description": "§eThe Mixed texture pack §dcollected by §bNoahCoal",
             "type": "resources",
-            "uuid": "295426f6-b2d8-46f1-acbe-3aecbc53c080",
+            "uuid": "9cc2f3c6-5561-4946-b088-6c41b430879b",
             "version": [
                 1,
-                10,
+                11,
                 0
             ]
         }
