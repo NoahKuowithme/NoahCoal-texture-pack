@@ -3,7 +3,7 @@
 
   "my_custom_bg": {
     "type": "image",
-    "texture": "textures/ui/fix_playscreen_BG",
+    "texture": "textures/ui/Fix_playscreen_BG",
     "fill": true
   }
 }

@@ -3,6 +3,6 @@
 
   "play_screen@common.base_screen": {
   "$safezone_screen_matrix_layer": 20,
-  "$screen_bg_content": "play.fix_playscreen_BG"
+  "$screen_bg_content": "play.Fix_playscreen_BG"
 }
 }
