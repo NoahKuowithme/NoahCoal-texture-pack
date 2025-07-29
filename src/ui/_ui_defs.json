@@ -13,6 +13,14 @@
     "new_ui/main_screens/hud_sections/chat_panel.json",
 
 
+//fix
+
+
+
+ "ui/play_screen.json",
+ "ui/fix_playscreen_BG.json",
+
+
 //other UI
 
     "ui/account_banned_screen.json",
@@ -118,7 +126,6 @@
     "ui/permissions_screen.json",
     "ui/persona_common.json",
     "ui/persona_screen.json",
-    "ui/play_screen.json",
     "ui/tabbed_upsell_screen.json",
     "ui/win10_trial_conversion_screen.json",
     "ui/perf_turtle.json",

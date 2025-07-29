@@ -1,7 +1,7 @@
 {
   "namespace": "play",
 
-  "my_custom_bg": {
+  "Noah_playscreen_BG": {
     "type": "image",
     "texture": "textures/ui/Fix_playscreen_BG",
     "fill": true
