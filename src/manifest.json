@@ -32,21 +32,6 @@
     ],
     "subpacks": [
         {
-            "folder_name": "Chomsky",
-            "name": "Chomsky",
-            "memory_tier": 1
-        },
-        {
-            "folder_name": "Neothic",
-            "name": "Neothic",
-            "memory_tier": 1
-        },
-        {
-            "folder_name": "Russo One",
-            "name": "Russo One",
-            "memory_tier": 1
-        },
-        {
             "folder_name": "Souls",
             "name": "Souls",
             "memory_tier": 1
@@ -72,11 +57,6 @@
             "memory_tier": 1
         },
         {
-            "folder_name": "32x_Cotton",
-            "name": "32x_Cotton",
-            "memory_tier": 1
-        },
-        {
             "folder_name": "bg",
             "name": "bg",
             "memory_tier": 1
@@ -84,6 +64,11 @@
         {
             "folder_name": "bg_1",
             "name": "bg_1",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "background_1",
+            "name": "background_1",
             "memory_tier": 1
         }
     ]
