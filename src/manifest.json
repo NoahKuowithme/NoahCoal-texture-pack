@@ -35,13 +35,8 @@
             "folder_name": "Souls",
             "name": "Souls",
             "memory_tier": 1
-        },
-        {
-            "folder_name": "Smooth",
-            "name": "Smooth",
-            "memory_tier": 1
-        },
-        {
+       },
+       {
             "folder_name": "font_smooth1",
             "name": "font_smooth1",
             "memory_tier": 1
