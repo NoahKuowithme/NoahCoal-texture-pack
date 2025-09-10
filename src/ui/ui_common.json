@@ -1,3 +1,5 @@
+//this file is to change the default backgrounds to the custom one by using namespace"common" to replace
+
 {
   "namespace": "common",
   
